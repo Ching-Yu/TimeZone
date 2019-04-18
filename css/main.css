@@ -1,0 +1,69 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  width: 535px;
+  height: 98px;
+  margin: 72px auto 0 auto;
+  border-top: 8px solid #000000;
+  border-bottom: 8px solid #000000;
+}
+
+.title h1 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.timezone-wrapper {
+  width: 540px;
+  height: 520px;
+  margin: 0 auto;
+  margin-top: 32px;
+  border: 1px solid #000000;
+}
+
+.timezone-wrapper .area {
+  width: 100%;
+  height: 104px;
+  border-bottom: 1px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.timezone-wrapper .left-wrapper {
+  padding: 16px 83px 16px 40px;
+}
+
+.timezone-wrapper .left-wrapper .areaname {
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 500;
+}
+
+.timezone-wrapper .left-wrapper .date {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.timezone-wrapper .time {
+  font-size: 72px;
+  line-height: 98px;
+  padding-right: 40px;
+  font-weight: 500;
+}
+
+.timezone-wrapper .area.black {
+  background: #000;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
